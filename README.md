@@ -1,11 +1,22 @@
 # Ripperz Marketplace
 
-The official marketplace for **ripperZ ressurrected**, a Zcash digital art collection.
+A [Claude Code](https://claude.com/claude-code) plugin marketplace for the **ripperZ ressurrected** Zcash project.
 
-- Payments settle in shielded ZEC.
-- Ownership moves only after the buyer's payment is fully confirmed on the Zcash network.
-- A payment that arrives after a Ripper is already sold is refunded automatically.
+## Install
 
-More details will be published here.
+```
+/plugin marketplace add RipperzResurrected/marketplace
+/plugin install ripperz@ripperz
+```
+
+## Plugins
+
+### ripperz
+
+| Part | What it does |
+|---|---|
+| `/ripperz:test` | Runs backend, browser and frontend checks and summarizes failures. |
+| `/ripperz:check` | Read-only health check of the Zcash service: database, manifest, worker heartbeat, node sync. Never broadcasts. |
+| `zcash-safety` skill | Keeps Claude from broadcasting transactions, pushing, or committing secrets without explicit approval. |
 
 Updates: [@RipperzNFT](https://x.com/RipperzNFT)
