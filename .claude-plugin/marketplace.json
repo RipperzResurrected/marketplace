@@ -9,7 +9,7 @@
     {
       "name": "ripperz",
       "description": "Test and health-check commands plus Zcash safety rules for the ripperZ ressurrected codebase.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "RipperzResurrected"
       },
